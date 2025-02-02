@@ -1,0 +1,23 @@
+class SavingsCalculator {
+    public static void main(String[] args) {
+        // Целевая сумма
+        int targetAmount = 2_459_000;
+        // Начальная сумма
+        int savings = 0;
+        // Ежемесячный вклад
+        int monthlyDeposit = 15_000;
+        // Счетчик месяцев
+        int months = 0;
+
+        // Используем цикл while для накопления
+        while (savings < targetAmount) {
+            savings += monthlyDeposit; // Добавляем ежемесячный вклад
+            months++; // Увеличиваем счетчик месяцев
+            // Выводим текущий результат
+            System.out.println("Месяц " + months + ", сумма накоплений равна " + savings + " рублей");
+        }
+
+        // Итоговый результат
+        System.out.println("Для накопления " + targetAmount + " рублей потребуется " + months + " месяцев.");
+    }
+}
