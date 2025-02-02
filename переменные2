@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        double myDouble = 27.12;          // значение с плавающей точкой
+        long myLong = 987678965549L;      // большое целое значение
+        float myFloat = 2.786f;           // значение с плавающей точкой
+        int myInt = 569;                   // целое значение
+        short myShort = -159;             // отрицательное значение
+        int myAnotherInt = 27897;         // еще одно целое значение
+        byte myByte = 67;                 // небольшое целое значение
+
+        System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
+        System.out.println("Значение переменной myLong с типом long равно " + myLong);
+        System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
+        System.out.println("Значение переменной myInt с типом int равно " + myInt);
+        System.out.println("Значение переменной myShort с типом short равно " + myShort);
+        System.out.println("Значение переменной myAnotherInt с типом int равно " + myAnotherInt);
+        System.out.println("Значение переменной myByte с типом byte равно " + myByte);
+    }
+}
