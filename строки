@@ -1,0 +1,14 @@
+class EmployeeInfo {
+    public static void main(String[] args) {
+        // Создаем переменные для хранения имени, отчества и фамилии
+        String firstName = "Ivan"; // Имя
+        String middleName = "Ivanovich"; // Отчество
+        String lastName = "Ivanov"; // Фамилия
+
+        // Формируем полное Ф. И. О. сотрудника
+        String fullName = lastName + " " + firstName + " " + middleName;
+
+        // Выводим результат в консоль
+        System.out.println("Ф. И. О. сотрудника — " + fullName);
+    }
+}
