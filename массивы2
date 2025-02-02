@@ -1,0 +1,15 @@
+class MonthlyExpenses {
+    public static void main(String[] args) {
+        // Создаем массив с пятью целочисленными элементами (траты за каждый понедельник)
+        int[] expenses = {5000, 7000, 6000, 8000, 7500}; // Пример значений
+
+        // Вычисляем сумму всех выплат за месяц
+        int totalExpenses = 0;
+        for (int expense : expenses) {
+            totalExpenses += expense;
+        }
+
+        // Выводим результат в консоль
+        System.out.println("Сумма трат за месяц составила " + totalExpenses + " рублей");
+    }
+}
