@@ -1,0 +1,17 @@
+class LeapYearChecker {
+    public static void main(String[] args) {
+        int[] years = {2020, 2021, 2000, 1900, 2024, 2100};
+
+        for (int year : years) {
+            checkLeapYear(year);
+        }
+    }
+
+    public static void checkLeapYear(int year) {
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            System.out.println(year + " год — високосный год");
+        } else {
+            System.out.println(year + " год — невисокосный год");
+        }
+    }
+}
